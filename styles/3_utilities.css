@@ -1,0 +1,127 @@
+/* --- Layout --- */
+.wrapper {
+  padding: 0 20px;
+  margin: 0 auto; /* bus visada centre*/
+  background-color: var(--background-color);
+}
+
+body {
+  background-color: var(--light-grayish-blue);
+}
+
+@media screen and (min-width: 500px) {
+  .wrapper {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .wrapper {
+    max-width: 680px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .wrapper {
+    max-width: 920px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 1300px;
+  }
+}
+
+/* Mobile first */
+
+/* --- text ---  */
+.name {
+  color: var(--white-color);
+  font-size: 13px;
+}
+
+.verified-text {
+  color: var(--white-color);
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.headline-2 {
+  color: var(--white-color);
+  font-size: 23px;
+}
+
+.text-1 {
+  color: var(--white-color);
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.dark_name {
+  color: var(--very-dark-blackish-blue-color);
+  font-size: 13px;
+}
+
+.dark_verified-text {
+  color: var(--very-dark-blackish-blue-color);
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.dark_headline-2 {
+  color: var(--very-dark-blackish-blue-color);
+  font-size: 23px;
+}
+
+.dark_text-1 {
+  color: var(--very-dark-blackish-blue-color);
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+/* cards  */
+
+.card__1 {
+  background-color: var(--moderate-violet-color);
+  box-shadow: 3px 9px 28px -3px var(--light-gray);
+}
+
+.card__2 {
+  background-color: var(--very-dark-grayish-blue-color);
+  box-shadow: 3px 9px 28px -3px var(--light-gray);
+}
+
+.card__3 {
+  background-color: var(--white-color);
+  box-shadow: 3px 9px 28px -3px var(--light-gray);
+}
+
+.card__4 {
+  background-color: var(--very-dark-blackish-blue-color);
+  box-shadow: 3px 9px 28px -3px var(--light-gray);
+}
+
+.card__5 {
+  background-color: var(--white-color);
+  box-shadow: 3px 9px 28px -3px var(--light-gray);
+}
+
+/* Author */
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  opacity: 0.8;
+  text-align: center;
+  gap: 5px;
+}
+
+.links {
+  color: black;
+  opacity: 0.5;
+  font-weight: normal;
+}
